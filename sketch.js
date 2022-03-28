@@ -84,7 +84,8 @@ function draw() {
   //establecer color de fondo
   background(180);
   
-  text("score: "+score,width-85,50);
+  textSize(15);
+  text("score: "+score,width-105,50);
   gameOver.visible=false;
   restart.visible=false;
   if(gameState === PLAY){
